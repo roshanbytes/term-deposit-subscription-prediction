@@ -11,7 +11,7 @@ __pycache__/
 # Data: keep the folder structure, not the data files
 data/raw/*
 data/processed/*
-!data/raw/.gitkeep
+!data/raw/README.md
 !data/processed/.gitkeep
 
 # Operating system files
