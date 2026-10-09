@@ -1,0 +1,10 @@
+name: term-deposit-subscription-prediction
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pandas
+  - ipykernel
+  - matplotlib
+  - seaborn
+  - scikit-learn
