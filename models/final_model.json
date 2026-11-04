@@ -1,0 +1,25 @@
+{
+  "model": "XGBoost",
+  "imbalance fix": "class weights",
+  "model__colsample_bytree": 0.6,
+  "model__learning_rate": 0.009470040922904443,
+  "model__max_depth": 6,
+  "model__min_child_weight": 10,
+  "model__n_estimators": 1600,
+  "model__subsample": 0.5,
+  "decision threshold": 0.4928629398345947,
+  "cross-validation scores": {
+    "accuracy": 0.888,
+    "precision": 0.383,
+    "recall": 0.882,
+    "f1": 0.533,
+    "pr_auc": 0.553,
+    "roc_auc": 0.949
+  },
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.2"
+  }
+}
